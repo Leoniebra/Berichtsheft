@@ -1,0 +1,3 @@
+\subsection{24. Mai}
+Heute habe ich Kommentare zu einer PR bearbeitet, und eine weitere Methode zum Unit-Testen von nicht-statischen Funktionen entwickelt: Diese Methode nutzt, dass viele instanziierte Services und Repositories im TYPO3 Singletons sind, und es daher möglich ist vor deren Aufruf einen Mock als die einzige Instanz dieser Klassen zuzuweisen. Diese Methode stellte sich in Klassen, die sich der LocalizationUtility von TYPO3 bedienten zwar als aufwendiger als die Nutzung von reflection heraus, ist meiner Meinung nach aber besser automatisierbar, sicherer und intuitiver als die starke Nutzung von reflection zum zuweisen von Instanzvariablen.
+Ich habe außerdem einige kleinere Bug Tickets bearbeitet.
