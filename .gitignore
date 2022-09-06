@@ -3,3 +3,7 @@ main.out
 main.toc
 main.aux
 OliSignature.png
+.gitignore
+main.tex~
+.main.tex.un~
+.researchdiary_png.sty.un~
